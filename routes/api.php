@@ -6,14 +6,7 @@ use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
 use Illuminate\Support\Facades\Hash;
 
-/*
-|--------------------------------------------------------------------------
-| API Routes - CRUD CATATAN (TUGAS 2)
-|--------------------------------------------------------------------------
-|
-| URL akan menjadi: /api/catatan
-|
-*/
+//Zona Catatan
 
 Route::get('/catatan', function (Request $request) {
     // Tampilkan catatan beserta data pemiliknya
